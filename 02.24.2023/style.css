@@ -1,0 +1,716 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&family=Roboto:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex&family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex&family=Work+Sans:wght@400;500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.section1 {
+    background-color: #73C69D;
+    padding: 20px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    color: white;
+    margin-top: 10px;
+}
+
+.divright svg {
+    width: 40px;
+    height: 40px;
+}
+
+.divleft img {
+    width: 70px;
+    height: 50px;
+
+}
+
+.divleft {
+    display: flex;
+    justify-content: start;
+    width: 50%;
+}
+
+.divright {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    height: 50px;
+    padding-top: 5px;
+
+}
+
+.divleft h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 32px;
+    margin: 0 !important;
+    padding: 10px;
+    font-weight: 200;
+
+}
+
+main div img {
+    width: 100%;
+    height: auto;
+
+}
+
+main {
+    color: white;
+
+}
+
+#text {
+    font-family: 'Roboto Slab', serif;
+    margin-top: 6px;
+}
+
+#text h3 {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 50px;
+
+}
+
+
+#text p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+
+}
+
+main a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+main button {
+    width: 110px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 0px;
+}
+
+@media screen and (max-width:600px) {
+    .div3:not(:first-child) {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .section1 {
+        padding-top: 40px;
+        height: fit-content;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    main div img {
+        width: 110%;
+        height: 115%;
+
+    }
+
+    nav {
+        margin-top: -12px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-right: 40px;
+    }
+
+    #text {
+        padding-right: 50px;
+        width: 50%;
+        padding-top: 40px;
+    }
+
+    #text h2 {
+        font-size: 38px;
+    }
+
+    #text h3 {
+        font-size: 15px;
+        font-family: 'Roboto Flex', sans-serif;
+        margin-top: 50px;
+    }
+
+
+    #text button {
+        margin-top: 20px;
+        width: 150px;
+        height: 45px;
+    }
+
+    #text button a {
+        font-size: 20px;
+    }
+
+    #divleft2 {
+        width: 50%;
+    }
+
+    .divleft img {
+        width: 75px;
+        height: 55px;
+
+    }
+
+    .divleft h1 {
+        font-size: 32px;
+        font-weight: 500;
+    }
+
+    .div3 {
+        width: 50%;
+    }
+
+    .div3 ul {
+        display: flex;
+        list-style: none;
+        text-align: end;
+        margin-left: 110px;
+    }
+
+    .div3 li {
+        padding: 0px 20px 0px 20px;
+        font-size: 20px;
+        font-family: 'Roboto Flex', sans-serif;
+        font-weight: 120;
+    }
+}
+
+@media screen and (min-width:600px) {
+    .divright:not(:first-child) {
+        display: none;
+    }
+}
+
+.section2 {
+    height: fit-content;
+    width: 100%;
+
+}
+
+#main2 {
+    display: grid;
+    grid-template-columns: repeat(1, 5fr);
+    
+    margin-top:-1rem; 
+
+}
+
+.svg {
+    width: 170px;
+    height: 100px;
+    padding-top: 0%;
+}
+
+.div12 {
+    height: 80px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.button2 {
+    margin-top: 50px;
+}
+
+header {
+    text-align: center;
+}
+
+header h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    text-decoration: solid;
+    margin-top: 40px;
+    color: #73C69D;
+}
+
+header h2 {
+    margin-top: 0px;
+    font-size: 23px;
+}
+
+header p {
+    font-size: 22px;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.div13 button {
+    margin-top: 20px;
+    width: 130px;
+    height: 40px;
+    background-color: rgb(26, 23, 23);
+    border-radius: 8px;
+    margin-left: 130px;
+}
+
+.div13 a {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header h2 {
+        font-size: 40px;
+    }
+
+    #main2 {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    .div13 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .div13 button {
+        width: 190px;
+        height: 45px;
+        margin-left: 15px;
+    }
+
+    .div13 button a {
+        font-size: 20px;
+    }
+}
+
+.section3 {
+    width: 100%;
+    height: 580px;
+}
+
+#main3 {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.divsecond {
+    color: black;
+}
+
+.divsecond button {
+    width: 105px;
+    height: 35px;
+    background-color: rgb(48, 46, 46);
+    border-radius: 8px;
+}
+
+.divsecond button a {
+    font-size: 16px;
+    color: white;
+}
+
+.divsecond h2 {
+    color: black;
+    margin-top: 50px;
+    font-size: 23px;
+    font-weight: 700;
+
+}
+
+.divsecond p {
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(117, 109, 109);
+    font-weight: 100;
+    font-size: 14px;
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .section3 {
+        height: 500px;
+    }
+
+    #main3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .divfirst {
+        width: 50%;
+        padding-left: 20px;
+
+    }
+
+    .divfirst img {
+        width: 95%;
+        height: 85%;
+        padding-left: 30px;
+    }
+
+    .divsecond {
+        width: 42%;
+        padding-right: 70px;
+        padding-top: 80px;
+
+    }
+
+    .divsecond p {
+        font-family: 'Work Sans', sans-serif;
+        color: rgb(117, 109, 109);
+        font-weight: 100;
+        font-size: 14px;
+        margin-top: -20px;
+    }
+
+    .divsecond h2 {
+        color: black;
+        font-size: 38px;
+        font-weight: 550;
+
+
+    }
+
+    .divsecond button {
+        width: 150px;
+        height: 45px;
+        background-color: rgb(48, 46, 46);
+        border-radius: 8px;
+    }
+
+    .divsecond button a {
+        font-size: 20px;
+        color: white;
+    }
+}
+
+.section4 {
+    width: 100%;
+    height: 650px;
+}
+
+#main4 {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.divsecond1 {
+    color: black;
+}
+
+.divsecond1 button {
+    width: 105px;
+    height: 35px;
+    background-color: rgb(48, 46, 46);
+    border-radius: 8px;
+}
+
+.divsecond1 button a {
+    font-size: 16px;
+    color: white;
+}
+
+.divsecond1 h2 {
+    color: black;
+    margin-top: 50px;
+    font-size: 23px;
+    font-weight: 700;
+
+}
+
+.divsecond1 p {
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(117, 109, 109);
+    font-weight: 100;
+    font-size: 14px;
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #main4 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .divfirst1 {
+        width: 50%;
+        padding-left: 10px;
+
+
+    }
+
+    .divfirst1 img {
+        width: 95%;
+        height: 82%;
+    }
+
+    .divsecond1 {
+        width: 42%;
+        padding-left: 80px;
+    }
+
+    .divsecond1 p {
+        font-family: 'Work Sans', sans-serif;
+        color: rgb(117, 109, 109);
+        font-weight: 100;
+        font-size: 14px;
+    }
+
+    .divsecond1 h2 {
+        color: black;
+        font-size: 38px;
+        font-weight: 550;
+        padding-top: 110px;
+    }
+
+    .divsecond1 button {
+        width: 150px;
+        height: 45px;
+        background-color: rgb(48, 46, 46);
+        border-radius: 8px;
+    }
+
+    .divsecond1 button a {
+        font-size: 20px;
+        color: white;
+    }
+}
+
+   .section5 {
+    width: 100%;
+    height: auto;
+}
+
+#main5 {
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(1, 5fr);
+    gap:20px;
+    
+}
+
+.cards {
+     display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+    width: 320px;
+    height:auto;
+    padding-left:30px;
+    padding-top: 20px;
+    margin-left: 20px;
+     
+} 
+.cards p{
+    margin-top:5px;
+  color: rgb(104, 102, 102);
+    
+}
+.cards img {
+    max-width:290px;
+    height: 290px;
+} 
+.p1 {
+    color: #73C69D;
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    margin-top:-15px;
+}
+
+.p2 {
+    font-size:19px;
+    font-weight:700;
+    margin-top:-15px;
+}
+
+.p3 {
+    font-family: 'Work Sans', sans-serif;
+    font-size:15px; 
+    margin-top:-18px;  
+}  
+#divfirst2{
+  text-align: center;
+  margin-top:2%;
+  width: 250px;
+margin-left:20%;
+
+
+} 
+.footer5{
+    background-color: #73C69D;
+    max-width:100%;
+    height:100px;
+    display: grid;
+    grid-template-columns: repeat(1,2fr);
+    
+    /* display: flex;
+    flex-direction: row;  */
+    /* gap:1rem; */
+    padding-top:25px;
+    margin-top: 25px;
+    color: white;
+}
+#svg5{
+    width: 35px;
+    height:35px;
+    display: flex;
+    justify-content: center;
+
+}
+.buttonlast button
+    {
+        width:130px;
+        height:35px;
+        background-color: rgb(48, 46, 46);
+        border-radius: 8px;
+    }
+
+    .buttonlast button a {
+        font-size:15px;
+        color: white;
+    }
+
+    .buttonlast{
+        display: flex;
+        justify-content: center;
+    } 
+   
+    .icon5 img{
+        width:15px;
+        height:15px;}
+    .icon5{
+        display: flex;
+        justify-content: space-evenly;
+        width:50%;
+        height: auto;
+       margin-left:90px;
+    }
+.footdiv{
+    text-align: center;
+    font-size:20px;
+    font-family: 'Work Sans', sans-serif;
+    margin-top:-20px;
+} 
+
+
+/* 
+1129 hamburger 
+958 face google
+957 fitcontent
+615
+
+*/
+@media only screen and (min-width: 600px) {
+
+    .divcards{
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+}
+.cards{
+    width:240px;
+    height:310px;
+}
+.cards img{
+    width:85%;
+    height:85%;
+}
+.buttonlast button
+    {
+        width:180px;
+        height:42px;
+        background-color: rgb(48, 46, 46);
+        border-radius:8px;
+    }
+    .buttonlast button a {
+        font-size:20px;
+        color: white;
+    }
+#divfirst2{
+    text-align: center;
+    margin-top:-100px;
+    width:900px; 
+    max-width:100%;
+  margin-left:20%;
+  
+}
+.p2{
+    font-size:40px
+}
+.p1{
+    font-size:18px;
+}
+.p3{
+    font-size:20px;
+}
+.footer5{
+    display: flex;
+    justify-content: space-between;
+    padding-top:40px;
+ height:70px;
+    flex-direction:row;
+    
+}
+.icon5{
+    display: flex;
+    justify-content: space-evenly;
+    width:20%;
+    height: auto;
+   margin-left:90px;
+}
+.icon5 img{
+   width:25px; 
+   height:25px;
+}
+.footdiv{
+    font-size:22px;
+    font-family: 'Work Sans', sans-serif; 
+    padding-right:40px;
+}
+}
